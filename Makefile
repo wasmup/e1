@@ -9,3 +9,5 @@ init:
 	tslint --init
 	npm i -D electron@latest
 	git init
+	npm install electron-packager -g
+	electron-packager .
